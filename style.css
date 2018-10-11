@@ -1,4 +1,36 @@
 body {
     margin: 0;
     padding: 0;
+    background: #262626;
+}
+
+section ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+section ul li a {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+section ul:hover li {
+    opacity: 0.1;
+}
+
+section ul li:hover {
+    opacity: 1.0;
 }
